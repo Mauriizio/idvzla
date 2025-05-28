@@ -21,38 +21,48 @@ function App() {
           </div>
 
         </div>
-        <div className=" col-span-2 text-[10px] grid justify-center font-bold"> V 23.755.555</div>
+
+        
+        <div className="  text-[10px] grid justify-end font-bold"> V 23.755.555</div>
+         <div className=" text-[10px] grid justify-end font-bold mr-1"> MM333</div>
 
 
-        <div className=" border border-black grid grid-rows-2 text-[10px] font-bold">
+        <div className="  grid grid-rows-2 grid-cols-2 text-[10px] font-bold">
+          <div className='text-[05px] text-left p-1 '>APELLIDOS <br></br> <br></br> NOMBRES</div> 
+          <div className='text-[08px] p-0 text-left text-extrabold'>CABALLERO PABON <br></br> JOSE DANIEL</div>
+
+          <div className='grid col-span-2 text-[05px] text-left ml-1 mb-1 mt-7 '>FIRMA TITULAR</div>
+          
 
           
-          <div className="border border-black">
+          <div className="">
              </div>
 
-          <div className="border border-black"> </div>
+          <div className=""></div>
         </div>
+
         
-        <div className="border border-black  grid grid-rows-2">
+        
+        <div className=" row-span-2 border border-black  grid grid-rows-2">13
 
+                   
+        </div>
+        <div className=" grid grid-cols-3 border border-black">
+          <div>huella</div>
+          
+          <div className='grid col-span-2 font-bold'>
+            <p className='text-[09px]'>14-01-80 SOLTERO</p>
+            <p className='text-[05px]'>F. NACIMIENTO EDO. CIVIL</p>
+            <p className='text-[09px] mt-3'>12-06-04 06-2014</p>
+            <p className='text-[05px]'>F. EXPEDICION F. VENCIMIENTO</p>
+            <p className='text-[16px]'>VENEZOLANO</p>
+
+          </div>
           
 
-         
-
-          
         </div>
-        <div className="border border-black">
-
-        </div>
-        <div className="border-black ">
-          
-        </div>
-        <div className="border border-black">
-
-        </div>
-        <div className="border border-black">
-          
-        </div>
+       
+        
       
 
 
