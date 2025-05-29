@@ -7,9 +7,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-     <div className="bg-gray-300 min-h-screen max-w-screen grid place-items-center  text-center p-10 rounded-xl shadow-xl">
+     <div className="bg-gray-300 min-h-screen max-w-screen grid place-items-center  text-center p-10 rounded-xl shadow-xl ">
 
-      <div  id='father'className="grid grid-cols-[227px_1fr] grid-rows-[40px_14px_1fr_1fr] bg-gray-100 w-[380px] h-[240px] border border-black rounded-md overflow-hidden "> 
+
+
+      <div  id='father'className="bg-gray-100 grid grid-cols-[227px_1fr] grid-rows-[40px_14px_1fr_1fr] w-[380px] h-[240px] border border-black rounded-md overflow-hidden"> 
 
 
         <div id='header' className="col-span-2  grid place-items-center px-4">
